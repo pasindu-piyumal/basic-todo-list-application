@@ -4,7 +4,7 @@ import os
 taskFile = "Task.json"
 
 def load_task():
-    if os.paht.exists(taskFile):
+    if os.path.exists(taskFile):
         with open(taskFile, "r") as file:
             return json.load(taskFile)
     return []

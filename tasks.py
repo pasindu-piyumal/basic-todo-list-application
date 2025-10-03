@@ -1,4 +1,4 @@
-from storage import load_tasks, save_tasks
+from storage import load_task, save_tasks
 
 def add_task(tasks):
     user_task = input("Enter task: ").strip()
